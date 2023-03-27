@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Context menu extension",
+  "version": "1.0",
+  "description": "Add original item into context menu",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "background": {
+    "scripts": [
+      "gpt.js"
+    ]
+  },
+  "permissions": [
+    "menus",
+    "clipboardWrite",
+    "alarms"
+  ]
+}
