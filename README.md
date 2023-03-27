@@ -9,7 +9,7 @@
   - webextensionをfirefoxやchromeにインストール
   - gpt.js内のURLを変更
 - chatGPTの制御ページ(python)
-  - key.pyにchatGPTのAPI_KEYを設定
+  - key.pyを作成してchatGPTのAPI_KEYを設定
   - ```streamlit run mail.py```
 
   - (本当はjavascriptだけで実装できるのですが、ちょっと詰まったので断念しました。)
