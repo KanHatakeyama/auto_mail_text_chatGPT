@@ -1,6 +1,8 @@
 import streamlit as st
 from key import API_KEY
 import openai
+import pyperclip
+
 openai.api_key = API_KEY
 
 
@@ -30,3 +32,4 @@ with st.form("my_form", clear_on_submit=False):
 if submitted:
     ans = ask("届いたメールの内容:"+str(header)+str(description))
     st.text(ans)
+    pyperclip.copy(ans)
